@@ -63,7 +63,7 @@ pipeline {
                         sh 'echo "Hello Student, Thanks for keeping up!"'
                     }
                 }
-                stage('Print ENV Variables') {
+                stage ('Print ENV Variables') {
                     steps {
                         sh "echo ${APP_ENV}"
                     }
